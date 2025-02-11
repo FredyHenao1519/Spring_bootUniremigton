@@ -6,6 +6,7 @@
     <title>Document</title>
     <form method="post"> action="/submit"
         <input type="text" name="data" placeholder="Write something"/>
+        <input type="hidden" name="_csrf" value="${_csrf.token}" />
         <button type="submit">Enviar</button>
 
     </form>
