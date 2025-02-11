@@ -2,9 +2,11 @@ package com.example.demo;
 
 import org.junit.jupiter.api;
 import org.mockito.Mockito;
-import static org.mockito.Mockito.*;
 
-class ServicioTest {
+import static jdk.internal.org.objectweb.asm.util.CheckClassAdapter.verify;
+import static org.mockito.Mockito.;
+
+public class ServicioTest {
     @Test
     void testServicio() {
 
